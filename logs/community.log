@@ -1,0 +1,69 @@
+2020-12-27 21:53:13.946  INFO 15994 --- [main] l.m.community.CommunityApplication       : Starting CommunityApplication v0.0.1-SNAPSHOT on Yukinos-Mac-mini.local with PID 15994 (/Users/yukino/Desktop/code/yukino/project/community/target/community-0.0.1-SNAPSHOT.jar started by yukino in /Users/yukino/Desktop/code/yukino/project/community_yukino)
+2020-12-27 21:53:13.950  INFO 15994 --- [main] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-27 21:53:15.530  INFO 15994 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-12-27 21:53:15.564  INFO 15994 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-27 21:53:15.565  INFO 15994 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-27 21:53:15.666  INFO 15994 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-27 21:53:15.666  INFO 15994 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1654 ms
+2020-12-27 21:53:16.511  INFO 15994 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-27 21:53:16.702  INFO 15994 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-27 21:53:16.845  INFO 15994 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-27 21:53:16.909  INFO 15994 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Sun Dec 27 21:53:16 CST 2020
+2020-12-27 21:53:16.965  INFO 15994 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-12-27 21:53:16.969  INFO 15994 --- [main] l.m.community.CommunityApplication       : Started CommunityApplication in 3.755 seconds (JVM running for 4.273)
+2020-12-27 21:53:16.989  INFO 15994 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-27 21:53:17.282  INFO 15994 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-27 21:53:17.326  INFO 15994 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Sun Dec 27 21:53:17 CST 2020
+2020-12-27 21:53:37.447  INFO 15994 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-27 21:53:37.447  INFO 15994 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-27 21:53:37.460  INFO 15994 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-12-27 21:54:55.215  INFO 15994 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-27 21:54:55.217  INFO 15994 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-27 21:54:55.220  INFO 15994 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-27 21:54:55.225  INFO 15994 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-27 22:08:19.971  INFO 16482 --- [main] l.m.community.CommunityApplication       : Starting CommunityApplication v0.0.1-SNAPSHOT on Yukinos-Mac-mini.local with PID 16482 (/Users/yukino/Desktop/code/yukino/project/community/target/community-0.0.1-SNAPSHOT.jar started by yukino in /Users/yukino/Desktop/code/yukino/project/community_yukino)
+2020-12-27 22:08:19.974  INFO 16482 --- [main] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-27 22:08:21.588  INFO 16482 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-12-27 22:08:21.629  INFO 16482 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-27 22:08:21.629  INFO 16482 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-27 22:08:21.740  INFO 16482 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-27 22:08:21.740  INFO 16482 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1702 ms
+2020-12-27 22:08:22.569  INFO 16482 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-27 22:08:22.736  INFO 16482 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-27 22:08:22.861  INFO 16482 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-27 22:08:22.915  INFO 16482 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Sun Dec 27 22:08:22 CST 2020
+2020-12-27 22:08:22.951  INFO 16482 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-12-27 22:08:22.955  INFO 16482 --- [main] l.m.community.CommunityApplication       : Started CommunityApplication in 3.608 seconds (JVM running for 4.091)
+2020-12-27 22:08:22.973  INFO 16482 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-27 22:08:23.256  INFO 16482 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-27 22:08:23.297  INFO 16482 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Sun Dec 27 22:08:23 CST 2020
+2020-12-27 22:08:36.410  INFO 16482 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-27 22:08:36.410  INFO 16482 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-27 22:08:36.434  INFO 16482 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-12-27 22:09:16.042  INFO 16482 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-27 22:09:16.046  INFO 16482 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-27 22:09:16.049  INFO 16482 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-27 22:09:16.057  INFO 16482 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-27 22:15:45.165  INFO 16747 --- [main] l.m.community.CommunityApplication       : Starting CommunityApplication v0.0.1-SNAPSHOT on Yukinos-Mac-mini.local with PID 16747 (/Users/yukino/Desktop/code/yukino/project/community/target/community-0.0.1-SNAPSHOT.jar started by yukino in /Users/yukino/Desktop/code/yukino/project/community_yukino)
+2020-12-27 22:15:45.168  INFO 16747 --- [main] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-27 22:15:46.635  INFO 16747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-12-27 22:15:46.671  INFO 16747 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-27 22:15:46.672  INFO 16747 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-12-27 22:15:46.774  INFO 16747 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-27 22:15:46.775  INFO 16747 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1554 ms
+2020-12-27 22:15:47.580  INFO 16747 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-27 22:15:47.742  INFO 16747 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-27 22:15:47.862  INFO 16747 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-27 22:15:47.912  INFO 16747 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Sun Dec 27 22:15:47 CST 2020
+2020-12-27 22:15:47.947  INFO 16747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-12-27 22:15:47.950  INFO 16747 --- [main] l.m.community.CommunityApplication       : Started CommunityApplication in 3.305 seconds (JVM running for 3.718)
+2020-12-27 22:15:47.960  INFO 16747 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-27 22:15:48.186  INFO 16747 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-27 22:15:48.232  INFO 16747 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Sun Dec 27 22:15:48 CST 2020
+2020-12-27 22:15:57.454  INFO 16747 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-27 22:15:57.455  INFO 16747 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-27 22:15:57.466  INFO 16747 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-12-27 22:25:19.299  INFO 16747 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-27 22:25:19.303  INFO 16747 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-27 22:25:19.305  INFO 16747 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-27 22:25:19.309  INFO 16747 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
