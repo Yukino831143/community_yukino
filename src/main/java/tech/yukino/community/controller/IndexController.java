@@ -3,6 +3,8 @@ package tech.yukino.community.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import tech.yukino.community.dto.PaginationDTO;
 import tech.yukino.community.dto.QuestionDTO;
 import tech.yukino.community.mapper.QuestionMapper;
 import tech.yukino.community.mapper.UserMapper;
@@ -24,7 +26,9 @@ public class IndexController {
     private QuestionService questionService;
 
     @GetMapping("/")
-    public String index(HttpServletRequest request, Model model) {
+    public String index(HttpServletRequest request, Model model,
+                        @RequestParam(name = "page", defaultValue = "1") Integer page,
+                        @RequestParam(name = "size", defaultValue = "2") Integer size) {
         Cookie[] cookies = request.getCookies();
         if (cookies == null ) {
             return "index";
@@ -39,8 +43,10 @@ public class IndexController {
                 break;
             }
         }
-        List<QuestionDTO> questionList = questionService.list();
-        model.addAttribute("questions", questionList);
+        PaginationDTO pagination = questionService.list(page, size);
+        System.out.println(pagination.toString());
+        //model.addAttribute("questions", questionList);
+        model.addAttribute("pagination", pagination);
         return "index";
     }
 }
